@@ -64,7 +64,7 @@ client.on('message', (message) => {
   if(message.author.bot) return;
 
   if(message.content == '!테스트') {
-    return message.reply('``라이센스여부`` : ``**확인**`` ++ ``봇테스트`` : ``**성공**``');
+    return message.reply('``라이센스여부`` : **``확인``** ++ ``봇테스트`` : **``성공``**');
   }
 
   if(message.content == '!서버정보') {
