@@ -11,7 +11,7 @@ const welcomeChannelComment = "어서오세요.";
 const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
-  console.log('켰다.');
+  console.log('켰다');
   client.user.setPresence({ game: { name: '"!도움말" 도움말표시' }, status: 'online' })
 
   let state_list = [
